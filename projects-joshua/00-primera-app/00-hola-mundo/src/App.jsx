@@ -1,14 +1,19 @@
 import React from "react";
 import "./App.css";
-import { TwitterFollowCard } from './TwitterFollowCard'
+import { TwitterFollowCard } from "./TwitterFollowCard";
 
-export function App () {
+export function App() {
   return (
     <section className="App">
-    <TwitterFollowCard userName="joshArfa" name="Joshua Acevedo" />
-    <TwitterFollowCard userName="pheralb" name="Pablo Hernandez" />
-    <TwitterFollowCard userName="angular" name="Angular" />
-    <TwitterFollowCard userName="midudev" name="Miguel Ángel Durán" />
+      <TwitterFollowCard userName="pheralb">
+        Pablo Hernandez
+      </TwitterFollowCard>
+      <TwitterFollowCard  userName="angular" name="Angular">
+        Angular
+      </TwitterFollowCard>
+      <TwitterFollowCard userName="midudev">
+        Miguel Angel Durán
+      </TwitterFollowCard>
     </section>
   );
 }
